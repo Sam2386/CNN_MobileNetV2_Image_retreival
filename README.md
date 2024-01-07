@@ -1,8 +1,5 @@
-CNN_MobileNetV2_Image_retreival
- This is a repository containing three tasks which helped me understand the working of CNNs.
-Task 1
-Convolutional Neural Network (CNN) for Handwritten Digits Classification
- This script demonstrates the implementation of a CNN for the classification of handwritten digits into three classes (0, 1, and 2). The code uses TensorFlow and Keras for model development and training.
+CNN_MobileNetV2_Image_retreival, This is a repository containing three tasks which helped me understand the working of CNNs.
+Task 1, Convolutional Neural Network (CNN) for Handwritten Digits Classification, This script demonstrates the implementation of a CNN for the classification of handwritten digits into three classes (0, 1, and 2). The code uses TensorFlow and Keras for model development and training.
 
 Key Components
 1. Data Preparation
@@ -30,9 +27,7 @@ The model is trained on the training set for 10 epochs, with validation performe
 After training, the model is evaluated on the validation set.
 The script prints the validation accuracy, providing insight into the model's performance.
 
-Task 2
-Fine-Tuning Pre-trained MobileNetV2 for Handwritten Digits Classification
- This script demonstrates the process of fine-tuning a pre-trained MobileNetV2 model on a dataset of handwritten digits. The goal is to classify the digits into three classes: 0, 1, and 2. The code uses TensorFlow and Keras for model development and training.
+Task 2, Fine-Tuning Pre-trained MobileNetV2 for Handwritten Digits Classification, This script demonstrates the process of fine-tuning a pre-trained MobileNetV2 model on a dataset of handwritten digits. The goal is to classify the digits into three classes: 0, 1, and 2. The code uses TensorFlow and Keras for model development and training.
 
 Key Components
 1. Data Preparation and Augmentation
@@ -61,9 +56,7 @@ The script then trains the model on the training set for 10 epochs, with validat
 After training, the model is evaluated on the validation set.
 The script prints the validation accuracy, providing insight into the model's performance.
 
-Task 3
-Image Retrieval with VGG16
- This Python script demonstrates image retrieval using a pre-trained VGG16 model. The goal is to select a query image from a set of query images and retrieve the top N (in this case N=4 so 4 similar images are neing displayed) similar images from a database. The similarity is measured using the Euclidean distance between the feature vectors extracted from the VGG16 model.
+Task 3, Image Retrieval with VGG16, This Python script demonstrates image retrieval using a pre-trained VGG16 model. The goal is to select a query image from a set of query images and retrieve the top N (in this case N=4 so 4 similar images are neing displayed) similar images from a database. The similarity is measured using the Euclidean distance between the feature vectors extracted from the VGG16 model.
 
 Key Components
 1. Loading and Preprocessing Images
